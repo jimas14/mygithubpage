@@ -1,9 +1,12 @@
 current todo:
 
-delete domain hosting from namecheap
-convert dns to amazon's and use schleicher.com (already registered)
-
-
-future todo:
-
 design mock page
+
+
+links:
+
+resume
+linkedin
+essays (like one for engl391)
+hackathons (blog post style)
+experience (blog post style)
