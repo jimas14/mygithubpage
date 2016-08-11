@@ -6,23 +6,36 @@ html, body {
     display: table;
 }
 
-.title {
-    display: table-cell;
-    text-align: center;
-	  vertical-align: middle;
-    /*position:absolute;*/
+img {
+    display: block;
+    margin: 0 auto;
+    vertical-align: center;
+    height: 492px;
+    width: 779px;
+    position: absolute;
 }
 
-#name {
-	font-family: 'Helvetica', 'Arial', sans-serif;
-	font-size: 25pt;
-	font-weight: ;
+.pane {
+    display: table-cell;
+    text-align: center;
+	vertical-align: middle;
+	position: relative;
+	top: 100px;
+	left: 0px;
 }
 
 .links {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-    margin-top:1000px;
-    position:relative;
+	font-family: 'Tahoma', 'Geneva', sans-serif;
+	font-size: 10pt;
+}
+
+h4 { 
+	display: inline;
+	padding: 7px;
+	text-decoration: underline;
+}
+
+#name {
+	font-family: 'Tahoma', 'Geneva', sans-serif;
+	font-size: 20pt;
 }

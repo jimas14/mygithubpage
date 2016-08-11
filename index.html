@@ -3,27 +3,46 @@
 
 <head>
   <title>james shliker</title>
-   <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+   	<link rel="shortcut icon" type="image/ico" href="img/favicon.ico"/>
 
     <script>
     	$(document).ready(function(){
-    		$("#title").hide().fadeIn(3000);
+    		$(".pane").hide().fadeIn(3000);
     	});
     </script>
 </head>
 
 <body>
-	<div class="title">
-		<h1 id="name">James Schleicher</h1>
-		<p>Prepare to be AMAZED</p>
+
+	<!-- image takes time to load, figure way around it
+		either find way to load faster, or wait for load then fade in -->
+	<div class="picture">
+		<img src="img/howardst.png">
 	</div>
+
+	<div class="pane">
+		<!-- look for font alternatives,
+			might want to make picture of custom font and load that?
+			new railway alphabet is cool -->
+		<h1 id="name">James Schleicher</h1>
   
-  <div class="links">
-    <a>Resume</a>
-    <p> sdsd</p>
-  </div>
+		<div class="links">
+			<a><h4 id="resume">resume</h4></a>
+				<!-- link to updated resume -->
+			<a><h4 id="experience">experience</h4></a>
+				<!-- in experience page, or in dropdown menu,
+					have link to hackathons, link to blog-post style
+					writings about uhc and wapo experiences -->
+			<a><h4 id="experience">papers</h4></a>
+				<!-- in papers page, have links to engl391 papers (display on html page),
+					maybe past papers, and maybe poems -->
+			<a><h4 id="connect">connect</h4></a>
+				<!-- have dropdown menu for links such as linkedin,
+					and whatever else i'm wiling to put on website -->
+		</div>
+	</div>
 </body>
 
 </html>
