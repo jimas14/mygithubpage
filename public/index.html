@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- style-src unsafe-inline is the only way to get css working locally -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+        default-src 'self';
+        style-src 'self' 'unsafe-inline';
+        img-src 'self' data:;
+        media-src 'self';
+        connect-src 'self' emailjs.com api.emailjs.com https://api.emailjs.com;
+        frame-src youtube.com www.youtube.com https://youtube.com https://www.youtube.com;"
+    />
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#B994C5" />
+    <meta name="description" content="Jimmy Schleicher"/>
+    <meta property="og:title" content="shliker.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://shliker.com/" />
+    <meta property="og:image" content="%PUBLIC_URL%/favicon.ico" />
+    <meta property="og:description" content="Jimmy Schleicher is a software engineer, dog lover, and fun haver." />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Jimmy Schleicher</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
